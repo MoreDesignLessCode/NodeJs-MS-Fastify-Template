@@ -18,7 +18,7 @@ jobs:
     - name: Rename the files
       run: |
           echo "Renaming the files in ${{ env.REPOSITORY_NAME }}"
-          sudo .github/rename_project.sh -n ${{ env.REPOSITORY_NAME }} -o ${{ env.REPOSITORY_NAME }}
+          .github/rename_project.sh -n ${{ env.REPOSITORY_NAME }} -o ${{ env.REPOSITORY_NAME }}
       
     
     # Checks-in all the changes
