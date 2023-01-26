@@ -26,3 +26,4 @@ jobs:
       uses: actions-x/commit@v1
       with:
         commit_message: "✅ Repository created from template."
+        push_options: --force
