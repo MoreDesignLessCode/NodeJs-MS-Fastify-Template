@@ -8,6 +8,6 @@ on:
 jobs:
 
   call-workflow-A:
-    uses: .github/workflows/createTemplate.yml
+    uses: .github/workflows/createTemplate.yml@main
     with:
       username: Houssem
