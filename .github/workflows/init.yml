@@ -8,6 +8,6 @@ on:
 jobs:
 
   call-workflow-A:
-    uses: .github/workflows/createTemplate.yml@main
+    uses: pankaj-iit/NodeJs-MS-Fastify-Template/.github/workflows/createTemplate.yml@main
     with:
       username: Houssem
