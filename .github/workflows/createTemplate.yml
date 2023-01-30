@@ -1,7 +1,7 @@
 name: createTemplate
 
 on:
-  workflow_call:
+ workflow_dispatch:
     inputs:
       objectname:
         required: true
